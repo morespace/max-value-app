@@ -1,0 +1,9 @@
+public class Number {
+    public static int maxValue(int valueOne, int valueTwo) {
+        if (valueOne >= valueTwo) {
+            return valueOne;
+        } else {
+            return valueTwo;
+        }
+    }
+}
