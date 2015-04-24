@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("Enter two values");
+        try {
+            Scanner in = new Scanner(System.in);
+            int valueOne = in.nextInt();
+            int valueTwo = in.nextInt();
+            int answer = Number.maxValue(valueOne, valueTwo);
+            System.out.println(answer + " is the biggest value");
+        } catch (Exception exception) {
+            System.out.println("Sorry, only integers can be compared");
+        }
+    }
+}
